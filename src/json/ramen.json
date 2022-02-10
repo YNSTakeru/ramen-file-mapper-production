@@ -1,0 +1,1413 @@
+[
+  {
+    "shopInfo": {
+      "id": 1,
+      "shopName": "お出汁とスパイス 元祖エレクトロニカレー",
+      "icon": "soysauce.svg",
+      "category": ["醤油"],
+      "image": "ramen1.jpeg",
+      "productName": "醤油そば",
+      "price": 900,
+      "broadCastDate": "2022-01-07",
+      "tel": "06-7708-1833",
+      "businessHours": {
+        "weeks": [
+          {
+            "sns": "https://twitter.com/electronicurry"
+          }
+        ]
+      },
+      "url": "https://electronicurry.com/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市都島区中野町3-5-13",
+      "latitude": 34.70208388359844,
+      "longitude": 135.52820161454704
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 2,
+      "shopName": "味噌NOODLE麴",
+      "icon": "miso.svg",
+      "category": ["味噌"],
+      "image": "misonoodlemen.jpeg",
+      "productName": "和山椒味噌らーめん",
+      "price": 850,
+      "broadCastDate": "2022-01-27",
+      "tel": "06-6210-1227",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 5,
+            "bhs": [
+              { "begin": "11:00", "end": "15:30" },
+              { "begin": "18:00", "end": "22:00" }
+            ]
+          },
+          {
+            "begin": 6,
+            "bhs": [{ "begin": "11:00", "end": "15:00" }]
+          }
+        ]
+      },
+      "url": "https://tabelog.com/osaka/A2701/A270102/27117035"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市中央区平野町2-5-14",
+      "latitude": 34.68799380888122,
+      "longitude": 135.50378143583745
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 3,
+      "shopName": "らぁめんじん IHARA店",
+      "icon": "miso.svg",
+      "category": ["味噌"],
+      "image": "ralamenjinIHARA.jpeg",
+      "productName": "土鍋味噌ラーメン（夜限定）",
+      "price": 1000,
+      "caution": "※土鍋味噌ラーメン夜営業のみ18時から提供",
+      "broadCastDate": "2022-01-27",
+      "tel": "06-6390-1888",
+      "businessHours": {
+        "weeks": [
+          {
+            "bhs": [
+              { "begin": "11:00", "end": "14:00" },
+              { "begin": "18:00", "end": "23:00" }
+            ]
+          }
+        ]
+      },
+      "url": "https://www.r-jin.jp/nishinakajima/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市淀川区西中島2-14-34",
+      "latitude": 34.72536098307887,
+      "longitude": 135.49753605344907
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 4,
+      "shopName": "星知ラズ お初天神店",
+      "category": ["鶏白湯"],
+      "image": "ramen4.jpeg",
+      "productName": "鶏白湯soba",
+      "price": 850,
+      "caution": "※土鍋味噌ラーメン夜営業のみ18時から提供",
+      "broadCastDate": "2022-01-07",
+      "tel": "06-6362-6070",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 5,
+            "bhs": [{ "begin": "11:00", "end": "14:00" }]
+          }
+        ]
+      },
+      "url": "https://tabelog.com/osaka/A2701/A270101/27125121/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市北区曽根崎 2-10-20 河合ビル 1F",
+      "latitude": 34.700741114997264,
+      "longitude": 135.50090877861845
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 5,
+      "shopName": "家系ラーメン 薩摩家",
+      "category": ["あっさり"],
+      "image": "ramen5.jpeg",
+      "productName": "ラーメン",
+      "price": 800,
+      "caution": "基本無休（Googleマップをご確認下さい。）",
+      "sns": true,
+      "googleMap": "https://g.page/r/CQbktKfK4nZxEBA",
+      "twitter": "https://twitter.com/ramen_syoujirou",
+      "broadCastDate": "2021-11-12",
+      "tel": "06-6850-1701",
+      "businessHours": {
+        "weeks": [
+          {
+            "bhs": [
+              { "begin": "11:00", "end": "14:30" },
+              { "begin": "17:30", "end": "23:00" }
+            ]
+          }
+        ]
+      },
+      "url": "https://tabelog.com/osaka/A2706/A270601/27125453/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "豊中市",
+      "address": "大阪府豊中市蛍池北3-3-11",
+      "latitude": 34.79568798658075,
+      "longitude": 135.44393630518726,
+      "googleMap": "https://g.page/r/CQbktKfK4nZxEBA"
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 6,
+      "shopName": "山形ラーメン　八八(はちや)　名神口店",
+      "category": ["山形"],
+      "image": "hachihachiya.jpeg",
+      "productName": "八八(はちや)らーめん",
+      "price": 900,
+      "sns": true,
+      "instagram": "https://instagram.com/ra_men88?utm_medium=copy_link",
+      "broadCastDate": "2021-11-12",
+      "tel": "06-6152-5988",
+      "businessHours": {
+        "weeks": [
+          {
+            "bhs": [{ "begin": "11:00", "end": "24:00" }]
+          }
+        ]
+      },
+      "url": "https://jun88.co.jp/shop04/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "豊中市",
+      "address": "大阪府豊中市名神口1-2-6",
+      "latitude": 34.7575805465987,
+      "longitude": 135.46396913559886
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 7,
+      "shopName": "YAMACHAN",
+      "icon": "miso.svg",
+      "category": ["味噌"],
+      "image": "yamachan.jpeg",
+      "productName": "味噌ラーメン",
+      "caution": "夜 開始時期未定（SNSでお知らせ)",
+      "sns": true,
+      "twitter": "https://twitter.com/6269710f8c644b6",
+      "price": 900,
+      "broadCastDate": "2021-10-15",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 6,
+            "bhs": [{ "begin": "11:30", "end": "15:00", "lo": "14:30" }]
+          }
+        ]
+      },
+      "url": "https://twitter.com/6269710f8c644b6"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市福島区海老江２－２－１２",
+      "latitude": 34.696332948685246,
+      "longitude": 135.47357196048742
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 8,
+      "shopName": "オコメノカミサマ",
+      "category": ["スッキリ"],
+      "tel": "06-6923-7924",
+      "image": "okomenokamisama.jpeg",
+      "productName": "神様からの贈り物ラーメン",
+      "price": 880,
+      "broadCastDate": "2021-04-01",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 0,
+            "end": 6,
+            "bhs": [{ "begin": "11:00", "end": "20:30", "lo": "20:00" }]
+          }
+        ]
+      },
+      "url": "https://twitter.com/dashikomu_ramen"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市都島区都島本通3丁目22-6",
+      "latitude": 34.70867211144966,
+      "longitude": 135.5259484672017
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 9,
+      "shopName": "だしと小麦の可能性",
+      "category": ["塩"],
+      "image": "dashitokomuginokanousei.jpeg",
+      "productName": "潮",
+      "price": 1000,
+      "broadCastDate": "2021-10-15",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 2,
+            "end": 0,
+            "bhs": [
+              { "begin": "11:00", "end": "14:00" },
+              { "begin": "17:00", "end": "20:00" }
+            ]
+          }
+        ]
+      },
+      "url": "https://twitter.com/dashikomu_ramen"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市中央区日本橋２－５－８",
+      "latitude": 34.66473883881078,
+      "longitude": 135.50586344894316
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 10,
+      "shopName": "麺処 にしむら",
+      "icon": "soysauce.svg",
+      "category": ["醤油"],
+      "tel": "06-6939-2126",
+      "image": "mendokoronishimura.jpeg",
+      "productName": "かけそば",
+      "price": 620,
+      "broadCastDate": "2021-4-1",
+      "businessHours": {
+        "weeks": [
+          {
+            "weekday": [{ "begin": "11:30", "end": "14:00", "lo": "14:00" }],
+            "holiday": [{ "begin": "11:00", "end": "15:00", "lo": "15:00" }],
+            "night": [{ "begin": "18:00", "end": "21:00", "lo": "21:00" }],
+            "regularHoliday": "火曜日、日曜日の夜、水曜日終日"
+          }
+        ]
+      },
+      "url": "https://tabelog.com/osaka/A2701/A270305/27117361/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪府大阪市鶴見区鶴見5-1-9",
+      "latitude": 34.70695500446583,
+      "longitude": 135.56043432838337
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 11,
+      "shopName": "俺の名はJ",
+      "icon": "pig.svg",
+      "category": ["豚骨"],
+      "tel": "06-6681-8877",
+      "image": "orenonahaj.jpeg",
+      "productName": "とんこつラーメン",
+      "price": 790,
+      "broadCastDate": "2021-01-06",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 2,
+            "end": 0,
+            "bhs": [
+              { "begin": "11:30", "end": "14:30", "lo": "14:15" },
+              { "begin": "18:00", "end": "22:00", "lo": "21:45" }
+            ]
+          }
+        ]
+      },
+      "url": "https://twitter.com/myname_jjj"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市住之江区北加賀谷2-12-11",
+      "latitude": 34.62142615435054,
+      "longitude": 135.477954529061
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 12,
+      "shopName": "らーめん　これこれ",
+      "icon": "soysauce.svg",
+      "category": ["醤油"],
+      "tel": "06-6339-0815",
+      "image": "ramenkorekore.jpeg",
+      "productName": "これこれ（黒しょうゆ）",
+      "price": 800,
+      "broadCastDate": "2021-01-06",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 2,
+            "end": 0,
+            "bhs": [
+              { "begin": "11:00", "end": "15:00" },
+              { "begin": "17:30", "end": "21:00" }
+            ]
+          }
+        ]
+      },
+      "url": "https://twitter.com/ramen_corecore?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "吹田市",
+      "address": "吹田市江坂町1-20-30　キャロル江坂１F",
+      "latitude": 34.75828250019342,
+      "longitude": 135.4999923681818
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 13,
+      "shopName": "塩そば 九兵衛",
+      "category": ["塩"],
+      "tel": "080-9760-2517",
+      "image": "siosobakyuubee.jpeg",
+      "productName": "活あさりの貝そば",
+      "price": 1000,
+      "broadCastDate": "2020-10-21",
+      "businessHours": {
+        "weeks": [
+          {
+            "weekday": [{ "begin": "11:00", "end": "14:30" }],
+            "regularHoliday": "土曜日、日曜日、祝日"
+          }
+        ]
+      },
+      "url": "https://retty.me/area/PRE27/ARE90/SUB9001/100001556652/47238927/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪府大阪市都島区東野田町3-12-9 1F",
+      "latitude": 34.69880499611317,
+      "longitude": 135.53489697221485
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 14,
+      "shopName": "麺とカフェ処 悠然かしや",
+      "icon": "soysauce.svg",
+      "category": ["醤油"],
+      "tel": "06-6606-8393",
+      "caution": "※カフェの営業時間　　11:30～16:00",
+      "image": "mentocafedokokroyuuzenkasha.jpeg",
+      "productName": "琥珀色した白醤油そば",
+      "price": 880,
+      "broadCastDate": "2020-10-21",
+      "businessHours": {
+        "weeks": [
+          {
+            "weekday": [
+              { "begin": "11:30", "end": "14:30" },
+              { "begin": "18:00", "end": "21:00" }
+            ],
+            "regularHoliday": "日曜日の夜営業/月曜日"
+          }
+        ]
+      },
+      "url": "https://twitter.com/yuzenkashiya"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪府大阪市阿倍野区帝塚山1-14-13",
+      "latitude": 34.624980086540866,
+      "longitude": 135.499663839672
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 15,
+      "shopName": "難波千日前 ハラミノカミサマ",
+      "category": ["牛骨"],
+      "tel": "050-5456-8982",
+      "image": "haraminokamisama.jpeg",
+      "productName": "但馬牛骨ラーメン",
+      "price": 550,
+      "broadCastDate": "2020-8-21",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 6,
+            "end": 0,
+            "bhs": [{ "begin": "11:30", "end": "14:00" }]
+          }
+        ]
+      },
+      "url": "https://haraminokamisama.owst.jp/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪府大阪市中央区難波千日前4-5",
+      "latitude": 34.66425780857714,
+      "longitude": 135.50528665850538
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 16,
+      "shopName": "麺 柳吉",
+      "category": ["塩"],
+      "tel": "06-6227-8744",
+      "caution": "寝かせ味玉　￥１００（税込）",
+      "image": "mexntunayoshi.jpeg",
+      "productName": "黄金塩ラーメン",
+      "price": 790,
+      "broadCastDate": "2020-6-29",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 6,
+            "bhs": [{ "begin": "11:30", "end": "15:00", "lo": "14:30" }],
+            "regularHoliday": "日曜日、祝日"
+          }
+        ]
+      },
+      "url": "https://twitter.com/menyanakichi"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市中央区平野町１－７－１　堺筋高橋ビルB1",
+      "latitude": 34.687311185451634,
+      "longitude": 135.5067655079902
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 17,
+      "shopName": "麺に光を",
+      "icon": "soysauce.svg",
+      "category": ["醤油"],
+      "tel": "06-6214-5551",
+      "image": "mexnnihikariwo.jpeg",
+      "productName": "ヒップホップ(鴨醤油そば)",
+      "price": 890,
+      "broadCastDate": "2020-02-05",
+      "businessHours": {
+        "weeks": [
+          {
+            "weekday": [{ "begin": "11:30", "end": "14:30" }],
+            "holiday": [{ "begin": "11:30", "end": "14:30" }],
+            "regularHoliday": "水曜日、木曜日"
+          }
+        ]
+      },
+      "url": "https://twitter.com/menhika?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市中央区西心斎橋2-17-8レバンガ心斎橋B１F",
+      "latitude": 34.670669214808484,
+      "longitude": 135.49754424683167
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 18,
+      "shopName": "彩哲～isato～",
+      "category": ["創作"],
+      "tel": "06-6381-0007",
+      "image": "isato.jpeg",
+      "productName": "枯鯖塩(かれさばしお)",
+      "price": 1000,
+      "broadCastDate": "2020-02-05",
+      "businessHours": {
+        "weeks": [
+          {
+            "weekday": [
+              { "begin": "11:30", "end": "14:00" },
+              { "begin": "18:00", "end": "21:00" }
+            ],
+            "holiday": [
+              { "begin": "11:30", "end": "14:00" },
+              { "begin": "18:00", "end": "21:00" }
+            ],
+            "regularHoliday": "水曜日、第4火曜日"
+          }
+        ]
+      },
+      "url": "https://mentetsu.co.jp/isato/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "吹田市",
+      "address": "大阪府吹田市朝日町5-24",
+      "latitude": 34.761917943525766,
+      "longitude": 135.52487531317414
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 19,
+      "shopName": "「麺や 鶏次と貝次」",
+      "category": ["鶏白湯"],
+      "tel": "072-245-9790",
+      "image": "menyakeijitokaiji.jpeg",
+      "caution": "※スープがなくなり次第終了",
+      "productName": "超濃厚！！鶏白湯とはまぐりダシの炙り肉盛りそば",
+      "price": 900,
+      "broadCastDate": "2019-12-09",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 0,
+            "bhs": [{ "begin": "11:00", "end": "24:00", "lo": "24:30" }]
+          }
+        ]
+      },
+      "url": "https://retty.me/area/PRE27/ARE87/SUB8701/100001424813/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "堺市",
+      "address": "大阪府堺市北区中百舌鳥町5-796-2",
+      "latitude": 34.55353384320794,
+      "longitude": 135.5047291842285
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 20,
+      "shopName": "小僧またおまえか。",
+      "icon": "pig.svg",
+      "category": ["豚骨"],
+      "tel": "06-4800-4708",
+      "image": "kozoumataomaeka.png",
+      "productName": "「９種魚介の濃厚豚骨魚介ラーメン～厚切り炙りチャーシュー乗せ～」",
+      "price": 900,
+      "broadCastDate": "2019-11-22",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 0,
+            "bhs": [
+              { "begin": "11:00", "end": "14:30" },
+              { "begin": "18:00", "end": "22:00" }
+            ],
+            "regularHoliday": "不定休"
+          }
+        ]
+      },
+      "url": "https://kozou53.jp/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪府大阪市北区天神橋1-18-8",
+      "latitude": 34.69487745591954,
+      "longitude": 135.5119364335899
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 21,
+      "shopName": "しゃかりき　京阪守口店",
+      "category": ["京都"],
+      "image": "syakariki.jpeg",
+      "productName": "地鶏と鯵煮干しの京都ラーメン",
+      "price": 900,
+      "broadCastDate": "2019-11-15",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 0,
+            "bhs": [{ "begin": "11:00", "end": "21:00", "lo": "20:10" }],
+            "regularHoliday": "元旦"
+          }
+        ]
+      },
+      "url": "https://twitter.com/syakariki_okm"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "守口市",
+      "address": "大阪府守口市河原町８－３京阪百貨店守口店７Ｆ",
+      "latitude": 34.73619890118936,
+      "longitude": 135.56690870570105
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 22,
+      "shopName": "スパイス食堂　サワキチ",
+      "category": ["創作"],
+      "tel": "06-6282-0400",
+      "image": "sawakichi.jpeg",
+      "productName": "豚骨麻婆麺",
+      "price": 850,
+      "broadCastDate": "2019-10-08",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 0,
+            "bhs": [
+              { "begin": "11:00", "end": "15:00", "lo": "14:30" },
+              { "begin": "18:00", "end": "24:00", "lo": "23:30" }
+            ],
+            "regularHoliday": "不定休"
+          }
+        ]
+      },
+      "url": "https://www.google.com/search?q=%E3%82%B9%E3%83%91%E3%82%A4%E3%82%B9%E9%A3%9F%E5%A0%82%E3%80%80%E3%82%B5%E3%83%AF%E3%82%AD%E3%83%81&sxsrf=APq-WBtJeZBcANpp7KQycdpuytuxV4XhIQ:1643681718662&ei=ppf4YbLII8OFr7wPlLil-AM&ved=2ahUKEwjCltvHt931AhUlL6YKHf0NCncQvS56BAgEEDA&uact=5&oq=%E3%82%B9%E3%83%91%E3%82%A4%E3%82%B9%E9%A3%9F%E5%A0%82%E3%80%80%E3%82%B5%E3%83%AF%E3%82%AD%E3%83%81&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBwgAEIAEEAQyBwgAEIAEEAQ6BwgAEEcQsANKBAhBGABKBAhGGABQkQRYkQRgxwZoA3ABeACAAU-IAU-SAQExmAEAoAECoAEByAEBwAEB&sclient=gws-wiz&tbs=lf:1,lf_ui:9&tbm=lcl&rflfq=1&num=10&rldimm=10563138663327248857&lqi=CiHjgrnjg5HjgqTjgrnpo5_loILjgIDjgrXjg6_jgq3jg4FIwsLmm7CvgIAIWjQQABABEAIYABgBGAIiIOOCueODkeOCpOOCuSDpo5_loIIg44K144Ov44Kt44OBKgQIAhACkgEQcmFtZW5fcmVzdGF1cmFudA&phdesc=MqbiB5iyHho&rlst=f#rlfi=hd:;si:10563138663327248857,l,CiHjgrnjg5HjgqTjgrnpo5_loILjgIDjgrXjg6_jgq3jg4FIwsLmm7CvgIAIWjQQABABEAIYABgBGAIiIOOCueODkeOCpOOCuSDpo5_loIIg44K144Ov44Kt44OBKgQIAhACkgEQcmFtZW5fcmVzdGF1cmFudA,y,MqbiB5iyHho;mv:[[34.7002972,135.5043775],[34.6759434,135.49787809999998]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市中央区南船場4-10-20 グランメゾン西心斎橋 1F",
+      "latitude": 34.677238593584505,
+      "longitude": 135.49837428171261
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 23,
+      "shopName": "鯛担麺専門店 抱きしめ鯛",
+      "category": ["鯛担麺"],
+      "tel": "06-6225-7747",
+      "image": "taitanmensenmonten.jpeg",
+      "caution": "スープがなくなり次第終了致します。",
+      "productName": "＊ランチセット【鯛担麺（全辛さ・しびれ対応可）＋鯛めし）",
+      "price": 1000,
+      "broadCastDate": "2019-10-08",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 6,
+            "bhs": [
+              { "begin": "11:00", "end": "14:30" },
+              { "begin": "17:30", "end": "22:00" }
+            ],
+            "weekday": [{ "begin": "11:30", "end": "14:00", "lo": "14:00" }],
+            "holiday": [{ "begin": "17:30", "end": "22:00" }],
+            "regularHoliday": "日曜日"
+          }
+        ]
+      },
+      "url": "https://tabelog.com/osaka/A2701/A270102/27106100/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市西区江戸堀1-23-21 ビエラ江戸堀 1F",
+      "latitude": 34.68922481917581,
+      "longitude": 135.49295687507134
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 24,
+      "shopName": "なにわ麺次郎",
+      "category": ["魚介"],
+      "tel": "０６－６５７５－７５３６",
+      "image": "naniwamexnjirou.jpeg",
+      "productName": "黄金貝ラーメン",
+      "price": 850,
+      "broadCastDate": "2019-09-02",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 0,
+            "bhs": [{ "begin": "11:00", "end": "23:00", "lo": "22:45" }],
+            "regularHoliday": "第三火曜日"
+          }
+        ]
+      },
+      "url": "https://twitter.com/naniwa_menjiro"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市中央区難波４－１－１７　近鉄・大阪難波駅　駅構内",
+      "latitude": 34.66710680771859,
+      "longitude": 135.4982946701799
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 25,
+      "shopName": "浜堂大阪　本店",
+      "category": ["讃岐"],
+      "tel": "０６－６６０６－９３１３",
+      "image": "hamadouoosaka.jpeg",
+      "caution": "＊朝煮干そば　５００円（６：００～８：００）、６８０円（８：００～１０：００）、＊煮干中華そば　７８０円（１０：００～）",
+      "productName": "朝煮干そば",
+      "price": 500,
+      "broadCastDate": "2019-09-02",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 0,
+            "bhs": [{ "begin": "06:00", "end": "21:00", "lo": "" }],
+            "regularHoliday": "水曜日"
+          }
+        ]
+      },
+      "url": "https://www.google.co.jp/maps/place/%E3%80%92542-0074+%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%83%E6%97%A5%E5%89%8D%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%98%E2%88%92%EF%BC%91%EF%BC%90/@34.6656128,135.5039383,21z/data=!4m5!3m4!1s0x6000e76affa33907:0xd754264d6964b19b!8m2!3d34.6655842!4d135.5041071?hl=ja"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市中央区千日前２－８－１０",
+      "latitude": 34.66558554407963,
+      "longitude": 135.50410455892737
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 26,
+      "shopName": "RAMEN PURISM",
+      "icon": "soysauce.svg",
+      "category": ["醤油"],
+      "image": "hayashiryuumisoramen.jpeg",
+      "caution": "営業時間：夜(火・金）18:00~21:30",
+      "productName": "林流味噌ラーメン×人類みな醤油",
+      "price": 1280,
+      "broadCastDate": "2019-07-08",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 6,
+            "bhs": [{ "begin": "11:00", "end": "23:00" }]
+          }
+        ]
+      },
+      "url": "https://retty.me/area/PRE27/ARE94/SUB9501/100001481712/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪府大阪市中央区心斎橋筋2-3-12 喜八ビル 1F",
+      "latitude": 34.6697583576537,
+      "longitude": 135.50191609957844
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 27,
+      "shopName": "らぁ麺屋　はりねずみ",
+      "icon": "miso.svg",
+      "category": ["味噌"],
+      "tel": "072-676-8860",
+      "image": "ralamenyaharinezumi.jpeg",
+      "caution": "数量限定",
+      "productName": "MISOらぁ麺（細麺）",
+      "price": 800,
+      "broadCastDate": "2019-07-08",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 0,
+            "bhs": [{ "begin": "11:00", "end": "14:30" }],
+            "regularHoliday": "不定休 （休業日はHP（ブログ）にてお知らせしております）"
+          }
+        ]
+      },
+      "url": "http://harinezumi2017.blog.fc2.com/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "高槻市",
+      "address": "大阪府高槻市野見町4-6",
+      "latitude": 34.845530095241436,
+      "longitude": 135.61851689971553
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 28,
+      "shopName": "麺や福はら",
+      "category": ["魚介"],
+      "tel": "０６－７５０８－３６４９",
+      "image": "menyafukuhara.jpeg",
+      "caution": "（材料切れ終了あり）",
+      "productName": "濃厚魚介ラーメン",
+      "price": 800,
+      "broadCastDate": "2019-06-03",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 0,
+            "bhs": [
+              { "begin": "11:00", "end": "14:00" },
+              { "begin": "18:00", "end": "22:00" }
+            ],
+            "regularHoliday": "火曜日"
+          }
+        ]
+      },
+      "url": "https://www.menyafukuharagroup.com/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市生野区新今里５－１－８",
+      "latitude": 34.687311185451634,
+      "longitude": 135.5067655079902
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 29,
+      "shopName": "拳ラーメン",
+      "icon": "soysauce.svg",
+      "category": ["醤油"],
+      "tel": "075-351-3608",
+      "image": "kobushiramen.jpeg",
+      "productName": "京鴨とノドグロ煮干しそば",
+      "price": 900,
+      "broadCastDate": "2019-05-06",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 0,
+            "bhs": [
+              { "begin": "11:30", "end": "14:30" },
+              { "begin": "18:00", "end": "22:00" }
+            ],
+            "regularHoliday": "水曜日"
+          }
+        ]
+      },
+      "url": "http://sakananoatama.blog69.fc2.com/"
+    },
+    "addressInfo": {
+      "prefecture": "京都府",
+      "city": "京都市",
+      "address": "京都市下京区朱雀正会町１−１６",
+      "latitude": 34.98936387799592,
+      "longitude": 135.743700637824
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 30,
+      "shopName": "麺や　凛",
+      "icon": "soysauce.svg",
+      "category": ["醤油"],
+      "tel": "072-761-1551",
+      "image": "mexnyarixn.jpeg",
+      "caution": "*火曜日、月曜日は昼営業のみ",
+      "productName": "醤油らーめん",
+      "price": 800,
+      "broadCastDate": "2019-04-01",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 0,
+            "bhs": [
+              { "begin": "11:30", "end": "14:30" },
+              { "begin": "18:00", "end": "21:00" }
+            ]
+          }
+        ]
+      },
+      "url": "https://menyarin.business.site/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "池田市",
+      "address": "池田市井口堂3-1-6",
+      "latitude": 34.81060051330087,
+      "longitude": 135.4444533238881
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 31,
+      "shopName": "中華そば 九兵衛",
+      "icon": "soysauce.svg",
+      "category": ["醤油", "塩"],
+      "tel": "080-4761-4754",
+      "image": "chukasobakyube.jpeg",
+      "caution": "*売り切れ次第終了",
+      "productName": "河内そば",
+      "price": 850,
+      "broadCastDate": "2019-04-01",
+      "businessHours": {
+        "weeks": [
+          {
+            "weekday": [{ "begin": "11:00", "end": "15:00" }],
+            "regularHoliday": "土曜日、日曜日、祝日"
+          }
+        ]
+      },
+      "url": "https://tabelog.com/osaka/A2707/A270703/27109482/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "東大阪市",
+      "address": "東大阪市長田中1-3-25",
+      "latitude": 34.678026444704074,
+      "longitude": 135.59019175189346
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 32,
+      "shopName": "鯛白湯らーめん　○de▽",
+      "category": ["魚介"],
+      "tel": "06-6152-6370",
+      "image": "sarari.jpeg",
+      "productName": "鯛清湯「さらり」",
+      "price": 850,
+      "broadCastDate": "2019-03-12",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 0,
+            "bhs": [
+              { "begin": "11:00", "end": "14:30" },
+              { "begin": "18:00", "end": "22:30" }
+            ]
+          }
+        ]
+      },
+      "url": "https://retty.me/area/PRE27/ARE88/SUB8801/100001447480/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市淀川区西宮原1-5-6",
+      "latitude": 34.73281410154215,
+      "longitude": 135.4941117916643
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 33,
+      "shopName": "中華そば　無限",
+      "category": ["ミシュラン"],
+      "caution": "※スープなくなり次第、早仕舞いあり",
+      "image": "chuukasobamugen.jpeg",
+      "productName": "中華そば",
+      "price": 800,
+      "broadCastDate": "2019-03-12",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 3,
+            "end": 0,
+            "bhs": [{ "begin": "11:00", "end": "16:00" }],
+            "regularHoliday": "月曜日、火曜日"
+          }
+        ]
+      },
+      "url": "https://twitter.com/mugen_chukasoba?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市福島区海老江5-5-10",
+      "latitude": 34.69660605196805,
+      "longitude": 135.47219883388496
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 34,
+      "shopName": "田中の中華そば",
+      "icon": "soysauce.svg",
+      "category": ["醤油"],
+      "image": "tanakanochuukasoba.jpeg",
+      "caution": "※売り切れ次第終了 休日の営業時間、日・祝　11:00～15:00",
+      "productName": "中華そば",
+      "price": 800,
+      "broadCastDate": "2019-02-12",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 2,
+            "end": 6,
+            "bhs": [
+              { "begin": "11:00", "end": "15:00" },
+              { "begin": "18:00", "end": "21:00" }
+            ],
+            "regularHoliday": "月曜日　※月曜日が祝日の場合営業あり、火曜日が休み"
+          }
+        ]
+      },
+      "url": "https://twitter.com/in0jgsacvmh3oyl"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市西区靭本町1-18-23 ウルトラビル 1F",
+      "latitude": 34.68422356900407,
+      "longitude": 135.4950443006196
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 35,
+      "shopName": "みんなのらぁ麺 阿飛流",
+      "icon": "soysauce.svg",
+      "category": ["醤油"],
+      "image": "mixnnanoralamexn.jpeg",
+      "caution": "※スープなくなり次第終了",
+      "productName": "阿飛流(あひる)の中華そば",
+      "price": 780,
+      "broadCastDate": "2019-02-12",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 6,
+            "bhs": [
+              { "begin": "11:30", "end": "14:30" },
+              { "begin": "17:30", "end": "22:00" }
+            ],
+            "regularHoliday": "日曜日・祝日"
+          }
+        ]
+      },
+      "url": "https://retty.me/area/PRE27/ARE91/SUB9102/100001445879/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市中央区南久宝寺町3-1-3 ペリカンビル 1F",
+      "latitude": 34.6793693879761,
+      "longitude": 135.50333012696646
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 36,
+      "shopName": "どストライク軒 総本店",
+      "category": ["塩"],
+      "tel": "06-6454-5200",
+      "image": "dostrike.jpeg",
+      "productName": "潮そば",
+      "price": 700,
+      "broadCastDate": "2019-01-16",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 5,
+            "bhs": [
+              { "begin": "11:00", "end": "14:30" },
+              { "begin": "17:00", "end": "22:00" }
+            ],
+            "regularHoliday": "日曜日"
+          }
+        ]
+      },
+      "url": "https://retty.me/area/PRE27/ARE89/SUB8901/100001446933/"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市北区梅田1-2-2 大阪駅前第２ビル 地下１階２０号室",
+      "latitude": 34.687311185451634,
+      "longitude": 135.5067655079902
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 37,
+      "shopName": "MENYA BIBIRI",
+      "icon": "soysauce.svg",
+      "category": ["醤油"],
+      "tel": "0742-31-4999",
+      "image": "mexnyabibiri.jpeg",
+      "productName": "和風鶏そば",
+      "price": 850,
+      "broadCastDate": "2018-11-08",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 0,
+            "bhs": [
+              { "begin": "11:00", "end": "15:00" },
+              { "begin": "18:00", "end": "22:00" }
+            ],
+            "regularHoliday": "月末最終日の夜営業"
+          }
+        ]
+      },
+      "url": "https://menya-bibiri.net/"
+    },
+    "addressInfo": {
+      "prefecture": "奈良県",
+      "city": "奈良市",
+      "address": "奈良県奈良市七条町165-1",
+      "latitude": 34.6622309668217,
+      "longitude": 135.78874593787967
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 38,
+      "shopName": "ENISHI",
+      "category": ["担々麺"],
+      "tel": "078-861-7776",
+      "image": "enishi.jpeg",
+      "productName": "淡路島A4和牛と神戸ポークのマグロ節担担麺",
+      "price": 850,
+      "broadCastDate": "2018-11-08",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 0,
+            "bhs": [
+              { "begin": "11:00", "end": "15:00" },
+              { "begin": "18:00", "end": "22:00" }
+            ],
+            "regularHoliday": "火曜日"
+          }
+        ]
+      },
+      "url": "https://omo-kansha.com/shop/enishi/"
+    },
+    "addressInfo": {
+      "prefecture": "兵庫県",
+      "city": "神戸市",
+      "address": "神戸市灘区岩屋北町５丁目2-32",
+      "latitude": 34.70424340617799,
+      "longitude": 135.21661996861437
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 39,
+      "shopName": "ＮＡＫＡＧＡＷＡわず",
+      "category": ["塩"],
+      "image": "nakagawawazu.jpeg",
+      "productName": "淡麺塩",
+      "price": 850,
+      "broadCastDate": "2018-10-09",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 0,
+            "bhs": [
+              { "begin": "11:00", "end": "15:00" },
+              { "begin": "18:00", "end": "22:00" }
+            ],
+            "regularHoliday": "不定休"
+          }
+        ]
+      },
+      "url": "https://twitter.com/kaedamasyouten?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "address": "大阪市東淀川区菅原6-24-12",
+      "latitude": 34.74161818910483,
+      "longitude": 135.52017570778625
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 40,
+      "shopName": "麺屋　鳥見本（とみもと）",
+      "category": ["鶏白湯"],
+      "tel": "073-496-4031",
+      "image": "tonkoturamen.jpeg",
+      "productName": "鶏骨ラーメン醤油",
+      "price": 700,
+      "broadCastDate": "2018-09-11",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 0,
+            "bhs": [
+              { "begin": "11:00", "end": "15:00", "lo": "14:45" },
+              { "begin": "17:00", "end": "21:00", "lo": "20:45" }
+            ],
+            "regularHoliday": "火曜日（祝日の場合は翌水曜休み）"
+          }
+        ]
+      },
+      "url": "https://twitter.com/menyatomimoto"
+    },
+    "addressInfo": {
+      "prefecture": "和歌山県",
+      "city": "和歌山市",
+      "address": "和歌山市六十谷18-1",
+      "latitude": 34.262010675458434,
+      "longitude": 135.20090776701056
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 41,
+      "shopName": "麺や清流",
+      "category": ["冷やしラーメン"],
+      "image": "mexnyaseiryuu.jpeg",
+      "caution": "土曜日　11:00～15:00（ラストオーダー、14:30）",
+      "productName": "猫舌中華そば",
+      "price": 750,
+      "broadCastDate": "2018-08-14",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 6,
+            "weekday": [
+              { "begin": "11:00", "end": "15:00", "lo": "14:30" },
+              { "begin": "17:30", "end": "22:00", "lo": "21:30" }
+            ],
+            "regularHoliday": "日曜日"
+          }
+        ]
+      },
+      "url": "https://twitter.com/menyaseiryu?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "東大阪市",
+      "address": "東大阪市小若江１－４－３",
+      "latitude": 34.687311185451634,
+      "longitude": 135.5067655079902
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 42,
+      "shopName": "みつか坊主　本店",
+      "category": ["創作"],
+      "tel": "０６―６８５０―３５３２",
+      "caution": "日曜日・祝日　　11:30～15:00／18:30～21:30",
+      "image": "mikkabouzu.jpeg",
+      "productName": "白ゴマ辛味噌",
+      "price": 1280,
+      "broadCastDate": "2018-08-14",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 2,
+            "end": 6,
+            "bhs": [
+              { "begin": "11:30", "end": "14:30" },
+              { "begin": "18:30", "end": "23:30" }
+            ],
+            "regularHoliday": "月曜日"
+          }
+        ]
+      },
+      "url": "https://mitsukabose.com/shop-access#kamoshi-shop-jamp"
+    },
+    "addressInfo": {
+      "prefecture": "大阪府",
+      "city": "豊中市",
+      "address": "豊中市蛍池中町２―５―１３",
+      "latitude": 34.793231475754396,
+      "longitude": 135.44922982553297
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 43,
+      "shopName": "麺dining月乃家",
+      "icon": "pig.svg",
+      "category": ["豚骨"],
+      "tel": "0737-52-5716",
+      "image": "mexndiningtukinoya.jpeg",
+      "productName": "豚骨醤油　並",
+      "price": 650,
+      "broadCastDate": "2018-09-11",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 0,
+            "bhs": [
+              { "begin": "11:00", "end": "14:30" },
+              { "begin": "17:00", "end": "22:00", "lo": "21:30" }
+            ],
+            "regularHoliday": "火曜日、第2、第4月曜日（祝日の場合は営業）"
+          }
+        ]
+      },
+      "url": "https://retty.me/area/PRE30/ARE278/SUB41803/100000709814/"
+    },
+    "addressInfo": {
+      "prefecture": "和歌山県",
+      "city": "有田郡",
+      "address": "和歌山県有田郡有田川町天満428-1",
+      "latitude": 34.06015444600447,
+      "longitude": 135.21005060997842
+    }
+  },
+  {
+    "shopInfo": {
+      "id": 44,
+      "shopName": "あいつのラーメン かたぐるま",
+      "category": ["塩"],
+      "image": "kataguruma.jpeg",
+      "productName": "濁（だく）とん塩ラーメン",
+      "price": 900,
+      "broadCastDate": "2019-05-06",
+      "businessHours": {
+        "weeks": [
+          {
+            "begin": 1,
+            "end": 0,
+            "bhs": [
+              { "begin": "10:30", "end": "14:00" },
+              { "begin": "18:00", "end": "22:30" }
+            ],
+            "regularHoliday": "水曜日"
+          }
+        ]
+      },
+      "url": "https://retty.me/area/PRE30/ARE278/SUB41803/100000709814/"
+    },
+    "addressInfo": {
+      "prefecture": "京都府",
+      "city": "京都市",
+      "address": "京都市下京区西七条西八反田町７７　ガーディアン青山１Ｆ",
+      "latitude": 34.99285645984333,
+      "longitude": 135.73618075770753
+    }
+  }
+]
