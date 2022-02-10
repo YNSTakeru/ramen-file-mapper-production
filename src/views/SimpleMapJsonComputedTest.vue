@@ -82,98 +82,116 @@
             </div>
 
             <div>{{ getbroadCastDate(shop.shopInfo.broadCastDate) }} 紹介</div>
-            <div class="mt-2 grid grid-cols-2 w-full gap-2">
-              <div>商品名</div>
-              <div>{{ shop.shopInfo.productName }}</div>
-              <div class="">住所</div>
-              <div>{{ shop.addressInfo.address }}</div>
-              <div class="" v-show="shop.shopInfo.tel">TEL</div>
-              <div v-show="shop.shopInfo.tel">{{ shop.shopInfo.tel }}</div>
-              <div class="self-center">営業時間</div>
+            <div class="mt-2 flex flex-col items-start w-full gap-2">
               <div>
-                <span
-                  v-for="(bhs, index) in shop.shopInfo.businessHours.weeks"
-                  :key="index"
-                >
-                  <span v-show="Object.keys(bhs)[0] === 'sns'">
-                    <a :href="bhs.sns" target="_blank" rel="noopener">
-                      <div
-                        class="
-                          secondary--text
-                          rounded-full
-                          w-40
-                          p-2
-                          text-center
-                          font-bold
-                          bg-indigo-600
-                          hover:bg-indigo-400
-                          transition
-                          ease-in-out
-                          duration-1000
-                        "
-                      >
-                        詳細はこちらをクリック
-                      </div>
-                    </a>
-                  </span>
-                  <div v-show="Object.keys(bhs)[0] !== 'sns' && bhs.begin">
-                    <span
-                      >{{ getWeekDay(bhs.begin) }}曜日
-                      <span>〜{{ getWeekDay(bhs.end) }}曜日</span>
+                <div class="text-xs">商品名</div>
+                <div class="">{{ shop.shopInfo.productName }}</div>
+              </div>
+              <div>
+                <div class="text-xs">住所</div>
+                <div class="">{{ shop.addressInfo.address }}</div>
+              </div>
+              <div>
+                <div class="text-xs" v-show="shop.shopInfo.tel">TEL</div>
+                <div class="" v-show="shop.shopInfo.tel">
+                  {{ shop.shopInfo.tel }}
+                </div>
+              </div>
+              <div>
+                <div class="text-xs">営業時間</div>
+                <div class="">
+                  <span
+                    v-for="(bhs, index) in shop.shopInfo.businessHours.weeks"
+                    :key="index"
+                  >
+                    <span v-show="Object.keys(bhs)[0] === 'sns'">
+                      <a :href="bhs.sns" target="_blank" rel="noopener">
+                        <div
+                          class="
+                            secondary--text
+                            rounded-full
+                            w-40
+                            p-2
+                            text-center
+                            font-bold
+                            bg-indigo-600
+                            hover:bg-indigo-400
+                            transition
+                            ease-in-out
+                            duration-1000
+                          "
+                        >
+                          詳細はこちらをクリック
+                        </div>
+                      </a>
                     </span>
-                  </div>
-                  <span v-for="(bs, value, index) in bhs.bhs" :key="index">
-                    <span>{{ bs.begin }}〜{{ bs.end }}</span>
-                    <span class="pl-4" v-show="bs.lo">
-                      ラストオーダー{{ bs.lo }}
-                    </span>
-                    <span v-show="value !== bhs.bhs.length - 1">, </span>
-                  </span>
-                  <div v-show="bhs.weekday">平日</div>
-                  <span v-for="(bs, value, index) in bhs.weekday" :key="index">
-                    <span>{{ bs.begin }}〜{{ bs.end }}</span>
-                    <span class="pl-4" v-show="bs.lo"
-                      >ラストオーダー{{ bs.lo }}
-                    </span>
-                    <span v-show="value !== bhs.weekday.length - 1">, </span>
-                  </span>
-                  <div v-show="bhs.holiday">土曜日、日曜日、祝日</div>
-                  <span v-for="(bs, value, index) in bhs.holiday" :key="index">
-                    <span>{{ bs.begin }}〜{{ bs.end }}</span>
-                    <span class="pl-4" v-show="bs.lo"
-                      >ラストオーダー{{ bs.lo }}</span
+                    <div
+                      class="text-xs pt-1"
+                      v-show="Object.keys(bhs)[0] !== 'sns' && bhs.begin"
                     >
-                    <span v-show="value !== bhs.holiday.length - 1">, </span>
+                      <span
+                        >{{ getWeekDay(bhs.begin) }}曜日
+                        <span>〜{{ getWeekDay(bhs.end) }}曜日</span>
+                      </span>
+                    </div>
+                    <div v-for="(bs, value, index) in bhs.bhs" :key="index">
+                      <span>{{ bs.begin }}〜{{ bs.end }}</span>
+                      <span class="pl-4" v-show="bs.lo">
+                        ラストオーダー{{ bs.lo }}
+                      </span>
+                    </div>
+                    <div class="text-xs py-1" v-show="bhs.weekday">平日</div>
+                    <div v-for="(bs, value, index) in bhs.weekday" :key="index">
+                      <span>{{ bs.begin }}〜{{ bs.end }}</span>
+                      <span class="pl-4" v-show="bs.lo"
+                        >ラストオーダー{{ bs.lo }}
+                      </span>
+                      <span v-show="value !== bhs.weekday.length - 1">, </span>
+                    </div>
+                    <div class="text-xs py-1" v-show="bhs.holiday">
+                      土曜日、日曜日、祝日
+                    </div>
+                    <div v-for="(bs, value, index) in bhs.holiday" :key="index">
+                      <span>{{ bs.begin }}〜{{ bs.end }}</span>
+                      <span class="pl-4" v-show="bs.lo"
+                        >ラストオーダー{{ bs.lo }}</span
+                      >
+                    </div>
+                    <div class="text-xs py-1" v-show="bhs.regularHoliday">
+                      定休日
+                    </div>
+                    <span v-show="bhs.regularHoliday">{{
+                      bhs.regularHoliday
+                    }}</span>
                   </span>
-                  <div v-show="bhs.regularHoliday">定休日</div>
-                  <span v-show="bhs.regularHoliday">{{
-                    bhs.regularHoliday
-                  }}</span>
-                </span>
+                </div>
               </div>
-              <div v-show="shop.shopInfo.caution">補足情報</div>
-              <div v-show="shop.shopInfo.caution" class="col-span-2">
-                {{ shop.shopInfo.caution }}
+              <div>
+                <div v-show="shop.shopInfo.caution">補足情報</div>
+                <div v-show="shop.shopInfo.caution" class="col-span-2">
+                  {{ shop.shopInfo.caution }}
+                </div>
               </div>
-              <div v-show="shop.shopInfo.sns" class="self-center">SNS</div>
-              <div v-show="shop.shopInfo.sns">
-                <div v-show="shop.shopInfo.sns"></div>
-                <div class="flex justify-start gap-2">
-                  <Link
-                    :name="'GoogleMap'"
-                    :show="shop.shopInfo.googleMap ? true : false"
-                    :link="shop.shopInfo.googleMap"
-                  />
-                  <Link
-                    :name="'Twitter'"
-                    :show="shop.shopInfo.twitter ? true : false"
-                    :link="shop.shopInfo.twitter"
-                  />
-                  <Link
-                    :name="'Instagram'"
-                    :show="shop.shopInfo.instagram ? true : false"
-                    :link="shop.shopInfo.instagram"
-                  />
+              <div>
+                <div v-show="shop.shopInfo.sns">
+                  <div v-show="shop.shopInfo.sns"></div>
+                  <div class="flex justify-start gap-2">
+                    <Link
+                      :name="'GoogleMap'"
+                      :show="shop.shopInfo.googleMap ? true : false"
+                      :link="shop.shopInfo.googleMap"
+                    />
+                    <Link
+                      :name="'Twitter'"
+                      :show="shop.shopInfo.twitter ? true : false"
+                      :link="shop.shopInfo.twitter"
+                    />
+                    <Link
+                      :name="'Instagram'"
+                      :show="shop.shopInfo.instagram ? true : false"
+                      :link="shop.shopInfo.instagram"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
