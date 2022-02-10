@@ -24,7 +24,7 @@
           :icon-url="require('@/assets/icons/' + shop.shopInfo.icon)"
         >
         </l-icon>
-        <l-popup :options="{ minWidth: 450, maxWidth: 600 }">
+        <l-popup :options="{ minWidth: 300, maxWidth: 600 }">
           <l-tooltip
             :options="{ permanent: false, interactive: false, sticky: true }"
           >
