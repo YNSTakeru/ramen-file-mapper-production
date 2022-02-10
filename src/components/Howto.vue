@@ -27,8 +27,15 @@
         </v-btn>
       </v-toolbar>
       <v-list three-line subheader class="">
-        <v-card-actions class="flex justify-center flex-col gap-8 p-10 mx-auto">
-          <div class="bg-gray-200 p-10">
+        <div class="flex pt-10 justify-center md:px-10">
+          <img
+            src="@/assets/howtoPageImage.png"
+            alt="表示されてる？"
+            class=""
+          />
+        </div>
+        <v-card-actions class="flex justify-center flex-col gap-8 mx-auto">
+          <div class="bg-gray-200 p-8">
             マイページは以下の情報を登録、編集することができます。
             <ul class="flex flex-col gap-2 pt-4">
               <li v-for="(item, i) in items" :key="i">{{ item.text }}</li>

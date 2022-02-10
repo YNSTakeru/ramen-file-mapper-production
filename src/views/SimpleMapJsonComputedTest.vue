@@ -24,6 +24,13 @@
           :icon-url="require('@/assets/icons/' + shop.shopInfo.icon)"
         >
         </l-icon>
+        <l-icon
+          v-if="!shop.shopInfo.icon"
+          :icon-size="[40, 47]"
+          :icon-anchor="[16, 37]"
+          :icon-url="require('@/assets/ramen.svg')"
+        >
+        </l-icon>
         <l-popup :options="{ minWidth: 300, maxWidth: 600 }">
           <l-tooltip
             :options="{ permanent: false, interactive: false, sticky: true }"
