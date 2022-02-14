@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center">
+  <div class="flex items-center z-1001">
     <div class="d-flex align-center">
       <v-img
         alt="Vuetify Logo"
@@ -46,4 +46,7 @@ export default {
 </script>
 
 <style>
+.z-1001 {
+  z-index: 1001;
+}
 </style>
