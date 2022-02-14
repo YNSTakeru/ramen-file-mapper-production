@@ -100,6 +100,7 @@
     "shopInfo": {
       "id": 4,
       "shopName": "星知ラズ お初天神店",
+      "icon": "chicken.svg",
       "category": ["鶏白湯"],
       "image": "ramen4.jpeg",
       "productName": "鶏白湯soba",
@@ -255,6 +256,7 @@
     "shopInfo": {
       "id": 9,
       "shopName": "だしと小麦の可能性",
+      "icon": "salt.svg",
       "category": ["塩"],
       "image": "dashitokomuginokanousei.jpeg",
       "productName": "潮",
@@ -383,6 +385,7 @@
     "shopInfo": {
       "id": 13,
       "shopName": "塩そば 九兵衛",
+      "icon": "salt.svg",
       "category": ["塩"],
       "tel": "080-9760-2517",
       "image": "siosobakyuubee.jpeg",
@@ -444,6 +447,7 @@
     "shopInfo": {
       "id": 15,
       "shopName": "難波千日前 ハラミノカミサマ",
+      "icon": "cow.svg",
       "category": ["牛骨"],
       "tel": "050-5456-8982",
       "image": "haraminokamisama.jpeg",
@@ -473,6 +477,7 @@
     "shopInfo": {
       "id": 16,
       "shopName": "麺 柳吉",
+      "icon": "salt.svg",
       "category": ["塩"],
       "tel": "06-6227-8744",
       "caution": "寝かせ味玉　￥１００（税込）",
@@ -569,6 +574,7 @@
     "shopInfo": {
       "id": 19,
       "shopName": "「麺や 鶏次と貝次」",
+      "icon": "chicken.svg",
       "category": ["鶏白湯"],
       "tel": "072-245-9790",
       "image": "menyakeijitokaiji.jpeg",
@@ -695,6 +701,7 @@
     "shopInfo": {
       "id": 23,
       "shopName": "鯛担麺専門店 抱きしめ鯛",
+      "icon": "seaBream.svg",
       "category": ["鯛担麺"],
       "tel": "06-6225-7747",
       "image": "taitanmensenmonten.jpeg",
@@ -731,6 +738,7 @@
     "shopInfo": {
       "id": 24,
       "shopName": "なにわ麺次郎",
+      "icon": "fish.svg",
       "category": ["魚介"],
       "tel": "０６－６５７５－７５３６",
       "image": "naniwamexnjirou.jpeg",
@@ -854,6 +862,7 @@
     "shopInfo": {
       "id": 28,
       "shopName": "麺や福はら",
+      "icon": "fish.svg",
       "category": ["魚介"],
       "tel": "０６－７５０８－３６４９",
       "image": "menyafukuhara.jpeg",
@@ -880,8 +889,8 @@
       "prefecture": "大阪府",
       "city": "大阪市",
       "address": "大阪市生野区新今里５－１－８",
-      "latitude": 34.687311185451634,
-      "longitude": 135.5067655079902
+      "latitude": 34.66178877529619,
+      "longitude": 135.54891720330474
     }
   },
   {
@@ -986,6 +995,7 @@
     "shopInfo": {
       "id": 32,
       "shopName": "鯛白湯らーめん　○de▽",
+      "icon": "fish.svg",
       "category": ["魚介"],
       "tel": "06-6152-6370",
       "image": "sarari.jpeg",
@@ -1116,6 +1126,7 @@
     "shopInfo": {
       "id": 36,
       "shopName": "どストライク軒 総本店",
+      "icon": "salt.svg",
       "category": ["塩"],
       "tel": "06-6454-5200",
       "image": "dostrike.jpeg",
@@ -1183,7 +1194,8 @@
     "shopInfo": {
       "id": 38,
       "shopName": "ENISHI",
-      "category": ["担々麺"],
+      "icon": "chili.svg",
+      "category": ["坦々麺"],
       "tel": "078-861-7776",
       "image": "enishi.jpeg",
       "productName": "淡路島A4和牛と神戸ポークのマグロ節担担麺",
@@ -1216,6 +1228,7 @@
     "shopInfo": {
       "id": 39,
       "shopName": "ＮＡＫＡＧＡＷＡわず",
+      "icon": "salt.svg",
       "category": ["塩"],
       "image": "nakagawawazu.jpeg",
       "productName": "淡麺塩",
@@ -1248,6 +1261,7 @@
     "shopInfo": {
       "id": 40,
       "shopName": "麺屋　鳥見本（とみもと）",
+      "icon": "chicken.svg",
       "category": ["鶏白湯"],
       "tel": "073-496-4031",
       "image": "tonkoturamen.jpeg",
@@ -1382,6 +1396,7 @@
     "shopInfo": {
       "id": 44,
       "shopName": "あいつのラーメン かたぐるま",
+      "icon": "salt.svg",
       "category": ["塩"],
       "image": "kataguruma.jpeg",
       "productName": "濁（だく）とん塩ラーメン",
