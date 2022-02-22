@@ -8,6 +8,7 @@ import "./assets/tailwind.css";
 import vuetify from "./plugins/vuetify";
 import router from "./router";
 import store from "./store";
+import './registerServiceWorker'
 
 const firebaseConfig = {
   apiKey: process.env.VUE_APP_FIREBASE_APIKEY,
