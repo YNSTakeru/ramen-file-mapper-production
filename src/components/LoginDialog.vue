@@ -7,7 +7,7 @@
   >
     <template v-slot:activator="{ on, attrs }">
       <v-btn
-        color="indigo secondary--text"
+        color="white primary--text"
         class="font-bold"
         dark
         v-bind="attrs"
@@ -39,7 +39,7 @@
             mx-auto
           "
         >
-          <v-btn @click="login" v-if="!loggedIn" color="indigo secondary--text"
+          <v-btn @click="login" v-if="!loggedIn" color="white primary--text"
             >Googleアカウントでログイン</v-btn
           >
           <EditDialog v-if="loggedIn" :buttonText="'編集画面を開く'" />
